@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags em HTML</title>
+</head>
+<body>
+    <h1 id="topo">Tags de texto em HTML</h1>
+    <hr>
+    <h2>Índice</h2>
+    <ul>
+       <li><a href="#para-que-servem">Para que servem as tags de texto</a></li>
+       <li><a href="#tag-h1">Tag H1 e sua utilidade</a></li>
+       <li><a href="#tag-p">Tag P e sua utilide</a></li>
+       <li><a href="#materias">Materias para estudo</a></li>
+    </ul>
+    <ol>
+        <li><a href="#ex-h1">Exemplo - tag H1</a></li>
+        <li><a href="#ex-p">Exemplo - tag P</a></li>
+    </ol>
+    <h2 id="para-que-servem">Para que servem as tags de texto</h2>
+    <p>As tags são <mark>palavras reservadas</mark>  do HTML que definem como o navegador irá exibir o conteúdo.</p>
+    <p>Com as tags o navegador consegue diferenciar um conteúdo HTML e um conteúdo comum, é permitido usar quantas tags quiser.</p>
+    <p> A maioria das tags possuem abertura e fechamento, mas algumas não possuem fechamento, como o input, por exemplo.</p>
+    <h2 id="tag-h1">Tag h1</h2>
+    <p>A <u>tag H1</u> é o <mark>título principal da página</mark>. Sua principal função é diferenciar o título dos demais conteúdos da página. </p>
+    <p><strong>A tag H1 possui destaque com a letra maior, o que deixa o conteúdo mais visível na página.</strong></p>
+    <p><i>Exemplo:</i></p>
+    <blockquote id="ex-h1">
+       < h1 > Esta é a tag H1 < /h1 >
+    </blockquote>
+    <h2 id="tag-p">Tag p</h2>
+    <p>A <u>tag P</u> <mark>representa um paragrafo</mark>. A tag P possui abertura e fechamento. A tag P pode ocupar toda a largura da página;</p>
+    <p> essa tag pode acomodar texto, imagens e até vídeos. </p>
+    <p>A tag P é obrigatória mas pode ser substituída em algumas situações.</p>
+    <p><i>Exemplo:</i></p>
+    <blockquote id="ex-p">
+        < p > Esta é a tag P < /p >
+        <br>
+        < p > A fórmula química do ácido sulfúrico é H<sub>2</sub>SO<sub>4</sub>.< /p >
+        <br>
+        < p > A Sara Maria chegará na 2<sup>a.</sup> feira. < /p >
+    </blockquote>
+    <h2 id="materias">Materias para estudo</h2>
+    <a href="https://www.youtube.com/watch?v=EANOXuQsglo" target="_blank">Tags Básicas em HTML5 - By Gustavo Guanabara</a>
+    <br>
+    <a href="https://www.youtube.com/watch?v=1sONyS9CJK8" target="_blank">Tags de Formatação de Texto</a>
+    <br>
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements" target="_blank"> H1-H6: Os elementos HTML de cabeçalho da seção</a>
+    <br><br>
+    <a href="#topo"> <small>Voltar ao topo</small></a>
+</body>
+</html>
